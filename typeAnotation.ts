@@ -3,12 +3,12 @@ let nameJohn: string = 'John';
 let age: number = 25;
 let active: boolean = true;
 let names: string[] = ['John', 'Jane', 'Peter', 'David', 'Mary'];
-let person: {
+let person1: {
     name: string;
     age: number
  };
  
- person = {
+ person1 = {
     name: 'John',
     age: 25
 }; // valid
