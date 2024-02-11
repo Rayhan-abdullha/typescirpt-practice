@@ -31,4 +31,4 @@ const sakib:SakibInfoType = {
 function getProprty<T, Y extends keyof T>(obj:T, key:Y) {
     return obj[key]
 } 
-console.log(getProprty(sakib, 'name'));
+console.log(getProprty<SakibInfoType, 'age'>(sakib, 'age'));
