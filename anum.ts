@@ -35,3 +35,4 @@ function isItSummer(month: Month) {
     return isSummer;
 }
 console.log(isItSummer(Month.Jan));
+
